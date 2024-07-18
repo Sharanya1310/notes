@@ -1,0 +1,62 @@
+.form-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .form{
+        display: flex;
+        margin-top: 15px;
+        flex-direction: column;
+    .google{
+        padding: 13px 20px;
+        display: flex;
+        width:320px;
+        cursor: pointer;
+        margin: 25px 0;
+        gap:10px;
+        border-radius: 10px;
+        justify-content: start;
+        align-items: center;
+        background-color: #f96254;
+        color: var(--white);
+
+        svg{
+            width: 24px;
+            height: 24px;
+        }
+        h3{
+            font-size: var(--fs-lg);
+        }
+        @media screen and (min-width:1400px) {
+            width: 400px;
+        }
+    }
+    .option{
+        display: flex;
+        height: 1px;
+        align-items: center;
+        margin-bottom: 30px;
+        justify-content: center;
+        border: 1px solid var(--light-grey);
+    
+    span{
+        z-index: 1;
+        padding: 0 10px;
+        margin: 0 auto;
+        position:absolute;
+        background-color: var(--white);
+        color: var(--grey);
+    }
+    }
+    .details{
+        display: flex;
+        gap:13px;
+        flex-direction: column;
+    }
+    .emailbtn{
+        background-color: #30c58d;
+        color: var(--white);
+    }
+}
+}

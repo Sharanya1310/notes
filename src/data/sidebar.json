@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Home",
+        "icon":"ic:baseline-home",
+        "path":"./notes"
+
+    },
+    {
+        "title":"Add Notes",
+        "icon":"ic:round-add",
+        "path":"./notes"
+
+    }
+]
